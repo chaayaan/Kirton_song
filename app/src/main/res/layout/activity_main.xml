@@ -5,15 +5,15 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginTop="40dp"
     android:background="#F5F5F5">
 
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/topBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#1E293B"
-        android:titleTextColor="#ffffff"/>
+        android:background="@color/toolbar_bg"
+        app:titleTextColor="@color/toolbar_text"
+        app:titleCentered="true"/>
 
     <ListView
         android:id="@+id/songListView"

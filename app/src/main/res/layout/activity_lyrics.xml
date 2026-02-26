@@ -5,15 +5,14 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginTop="40dp"
     android:background="#FFFFFF">
 
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/topBarLyrics"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#1E293B"
-        android:titleTextColor="#F8FAFC"
+        android:background="@color/toolbar_bg"
+        app:titleTextColor="@color/toolbar_text"
         app:navigationIcon="@drawable/outline_arrow_back_24"/>
 
     <ScrollView
@@ -42,7 +41,7 @@
                 android:id="@+id/lyricsText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 android:lineSpacingExtra="12dp"
                 android:textAlignment="center"
                 android:textColor="#333333"/>
