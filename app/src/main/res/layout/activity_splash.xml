@@ -2,10 +2,9 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff">
+    android:background="@color/bg_screen">
 
     <ImageView
         android:id="@+id/logo"
@@ -19,15 +18,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!-- id changed to splashTitle so SplashActivity.kt can find it -->
     <TextView
-        android:id="@+id/appName"
+        android:id="@+id/splashTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="68dp"
         android:layout_marginTop="44dp"
         android:layout_marginEnd="68dp"
-        android:text="আড়াই দিনের কীর্তনের গান"
-        android:textColor="#000000"
+        android:text=""
+        android:textColor="@color/toolbar_text"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -42,7 +42,7 @@
         android:layout_marginEnd="158dp"
         android:layout_marginBottom="76dp"
         android:text="© ChayanDev 2026"
-        android:textColor="#8E8E8E"
+        android:textColor="@color/lyrics_text"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

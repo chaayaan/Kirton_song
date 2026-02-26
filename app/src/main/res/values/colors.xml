@@ -2,6 +2,16 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="toolbar_bg">#41431B</color>
-    <color name="toolbar_text">#F8F3E1</color>
+    <!-- Screen background: warm off-white instead of flat grey -->
+    <color name="bg_screen">#F0F4FF</color>
+
+    <!-- Toolbar: clean white with a soft indigo title -->
+    <color name="toolbar_bg">#FFFFFF</color>
+    <color name="toolbar_text">#2D2D5E</color>
+
+    <!-- ListView divider: very light so it feels airy -->
+    <color name="list_divider">#E3E8FF</color>
+
+    <!-- Lyrics screen -->
+    <color name="lyrics_text">#4A4A7A</color>
 </resources>

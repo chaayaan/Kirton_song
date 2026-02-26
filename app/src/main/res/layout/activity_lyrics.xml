@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF">
+    android:background="@color/bg_screen">
 
     <!-- Background Logo (Centered) -->
     <ImageView
@@ -13,7 +13,7 @@
         android:layout_height="420dp"
         android:src="@drawable/app_logo"
         android:layout_gravity="center"
-        android:alpha="0.3"
+        android:alpha="0.06"
         android:scaleType="fitCenter"/>
 
     <!-- Main Content -->
@@ -28,6 +28,7 @@
             android:layout_height="wrap_content"
             android:background="@color/toolbar_bg"
             app:titleTextColor="@color/toolbar_text"
+            app:navigationIconTint="@color/toolbar_text"
             app:navigationIcon="@drawable/outline_arrow_back_24"/>
 
         <ScrollView
@@ -47,7 +48,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="26sp"
                     android:textStyle="bold"
-                    android:textColor="#000000"
+                    android:textColor="@color/toolbar_text"
                     android:textAlignment="center"
                     android:layout_marginBottom="24dp"/>
 
@@ -59,7 +60,7 @@
                     android:textSize="16sp"
                     android:lineSpacingExtra="12dp"
                     android:textAlignment="center"
-                    android:textColor="#333333"/>
+                    android:textColor="@color/lyrics_text"/>
 
             </LinearLayout>
 
